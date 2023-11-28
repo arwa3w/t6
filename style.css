@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 90vh;
+    background-image: url(eid.jpg);
+    background-size: 100% 100%;
+    opacity: 0.9;
+
+}
+.header h2 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family:Brush Script MT ;
+    color: white;
+    font-weight: bold;
+
+}
+.header .navbar{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    flex-direction: row;
+    gap: 30px;
+    position: relative;
+    top: 0px;
+}
+.header h1{
+    text-align: center;
+    position: relative;
+    top: 250px;
+    font-size: 40px;
+    font-family:Brush Script MT ;
+    color: white;
+    font-weight: bold;
+}
+.header .navbar i{
+     margin-right: 0px;
+}
+.header .navbar pre{
+    position:relative;
+    right: 20px;
+    
+}
+.data{
+    margin-top: 40px;
+    text-align: center;
+    width:100% ;
+    height: 75vh;
+
+}
+.data h1{
+    color: rgb(240, 218, 18);
+    text-shadow: 2px 2px 1px rgb(133, 128, 128);
+}
+.data .p{
+    margin-top: 10PX;
+    color: #444;
+}
+.data .icon{
+    margin-top: 60PX;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-content: center;
+}
+
+.data .icon .ch1
+{
+    width: 230px;
+    height: 230px;
+    background-color: #444;
+    box-shadow: 3PX 3PX 3PX black;
+    border-radius: 10px;
+}
+.data .icon .ch2
+{
+    width: 230px;
+    height: 230px;
+    background-color:rgb(240, 218, 18);
+    box-shadow: 3PX 3PX 3PX black;
+    border-radius: 10px;
+}
+.data .icon i{
+    color: aliceblue;
+    font-size: 50PX;
+}
+.data .icon h3{
+    font-size: 27PX;
+}
+.data .icon P{
+    color: aliceblue;
+}
+.data .icon i{
+    margin-top: 10PX;
+}
+.galary{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.galary h1{
+    color:rgb(240, 218, 18) ;
+}
+.galary .img{
+    width: 95%;
+    height: 50vh;
+    background-color:rgb(240, 218, 18) ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+.galary .img .ch1{
+    background-image: url(1.jpg);
+    background-size: 100% 100%;
+}
+.galary .img .ch2{
+    background-image: url(2.jpg);
+    background-size: 100% 100%;
+}
+.galary .img .ch3{
+    background-image: url(3.jpg);
+    background-size: 100% 100%;
+}
+.galary .img .ch4{
+    background-image: url(4.jpg);
+    background-size: 100% 100%;
+}
+.galary .img .ch5{
+    background-image: url(5.jpg);
+    background-size: 100% 100%;
+}
+.galary .img .ch6{
+    background-image: url(6.jpg);
+    background-size: 100% 100%;
+}
+.galary .img .ch7{
+    background-image: url(7.jpg);
+    background-size: 100% 100%;
+}
+.galary .img .ch8{
+    background-image: url(8.jpg);
+    background-size: 100% 100%;
+}
+.form
+{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(8.jpg);
+    background-size: 100% 140%;
+    align-content: center;
+}
+.form .cont{
+    width: 60%;
+    height: 70%;
+    border: 3px solid rgb(240, 218, 18) ;
+    background-color: rgb(46, 73, 64);
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+}
+.form .cont h1{
+    color: white;
+}
+input[type=text],input[type=email],textarea
+{
+    position: relative;
+    top: 20px;
+    width: 50%;
+    height: 40px;
+    border-bottom:2px solid rgb(240, 218, 18) ;
+    color:rgb(240, 218, 18) ;
+    background-color:rgb(46, 73, 64) ;
+    border-top: 0cap;
+    border-left:0 ;
+    border-right: 0;
+}
+textarea{
+    height: 70px;
+}
+input[type=submit]
+{
+    position: relative;
+    top: 15px;
+    width: 10%;
+    color:rgb(240, 218, 18) ;
+    background-color:rgb(46, 73, 64) ;
+    border-top: 0cap;
+border-bottom: 1px solid rgb(61, 57, 57);
+}
+.footer{
+    width: 100%;
+    height: 80vh;
+    background-color:rgb(240, 218, 18) ;
+    /* text-align: center; */
+    display:flex;
+    flex-direction: column;
+    gap: 260px;
+}
+.footer .divs{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+position: relative;
+top: 150px;
+left: 10%;
+}
+.footer .divs pre{
+position: relative;
+left: 30px;
+top: -17px;
+}
+.footer .icons{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 40px;
+}
+.footer .icons #ico1{
+    color: blue;
+}
+.footer .icons #ico2{
+    color: rgb(52, 52, 141);
+}
+.footer .icons #ico3{
+    color:crimson;
+}
+.footer .icons #ico4{
+    color:darkorchid;
+}
+.footer .icons #ico5{
+    color: blue;
+}
